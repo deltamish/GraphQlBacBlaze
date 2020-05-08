@@ -1,0 +1,5 @@
+class UploadToken {
+    UploadUrl;
+    AuthToken;
+}
+

@@ -1,0 +1,5 @@
+*.env
+.npm
+vidvaanh-firebase-adminsdk-kj0x3-d64688a62a.json
+node_modules/
+appkey.txt

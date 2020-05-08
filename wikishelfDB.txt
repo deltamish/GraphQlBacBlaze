@@ -1,0 +1,54 @@
+User {
+    MediaList,
+        Name,
+        Dp,
+        BookReads[] => { BookId, BookDetails }
+}
+
+
+
+Book {
+    id:
+    Name:
+    Image:
+    Lang:
+
+}
+
+
+
+//----------------Query - GraphQL------------
+
+ListOfBooks(user) {
+    Query => 
+
+    return [Books]
+    }
+
+    B
+    Book {
+        id:
+        Name:
+        Image:
+        Lang:
+        LastReadPage:
+        Source:
+        CurrentPage: Line:
+        BookComments: [line, text, date]
+        Audios: [Trigger: { Index- range(mon, max), }, audioSource, type: ambient / readout / narration]-> ML if possible
+
+}
+}
+
+GetRecentBooks(){
+    Book {
+        id:
+        Name:
+        Image:
+        Lang:
+        LastReadPage:
+        Source:
+    
+    }
+
+}
